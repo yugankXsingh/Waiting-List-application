@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/app.css" />
+</head>
+
+<body>
+    <header>
+        <h1>JOIN US</h1>
+    </header>
+
+    <p> Enter you email to join <strong>
+            <%=count %>
+        </strong> others on our waitlist.
+        <br>We are 100% a cult.</br>
+    </p>
+
+    <form method="POST" action="/register">
+        <input type="email" name="email" class="form" placeholder="Enter Your Email">
+        <button>Join Now</button>
+    </form>
+
+    <footer>
+        <p>&copy; <%= new Date().getFullYear() %> Powered by Node.js, MySQL & EJS</p>
+    </footer>
+</body>
+
+</html>

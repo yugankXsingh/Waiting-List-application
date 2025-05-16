@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+
+# Dependency lock (choose one)
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional: Ignore uploads, sessions, temp files
+uploads/
+tmp/
+*.bak
+
+# Ignore build outputs (if you're compiling anything)
+dist/
+build/
+
+# Ignore session store (if using file-based sessions)
+sessions/
+
+# Optional: coverage and test results
+coverage/
+.nyc_output/
+
+# Ignore database dumps/backups
+*.sql
+*.sqlite
+*.db
+dump.rdb
+
+# Ignore EJS cache
+*.ejs~
+
+# Ignore your custom admin override fake login (if temporary)
+fake-admin-login.js
