@@ -51,7 +51,7 @@ yaml
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/yourusername/join-us-app.git
+   git clone https://github.com/yugankXsingh/join-us-app.git
    cd join-us-app
 
 💡 Future Enhancements
