@@ -16,15 +16,17 @@ A simple full-stack Node.js application where users can register their email to 
 
 ## 📁 Project Structure
 
-join-us-app:
-  public:
-    - app.css  # CSS for styling
-  views:
-    - home.ejs       # Main homepage with form
-    - thankyou.ejs   # Post-registration thank-you page
-  - app.js           # Main Express application
-  - schema.sql       # MySQL table schema
-  - README.md        # You're looking at it!
+```
+join-us-app/
+├── public/
+│   └── app.css           # CSS for styling
+├── views/
+│   ├── home.ejs          # Main homepage with form
+│   └── thankyou.ejs      # Post-registration thank-you page
+├── app.js                # Main Express application
+├── schema.sql            # MySQL table schema
+└── README.md             # You're looking at it!
+```
 
 ---
 
